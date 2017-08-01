@@ -1,0 +1,48 @@
+{
+  "name": "opakeco-foundation-contracts",
+  "version": "0.0.1",
+  "description": "Opakeco Foundation contracts package",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "zeppelin-solidity": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opakeco/contracts.git"
+  },
+  "keywords": [
+    "opakeco",
+    "foundation",
+    "platform",
+    "ethereum",
+    "solidity",
+    "smart",
+    "contract"
+  ],
+  "contributors": [
+      {
+          "name": "Opakeco Foundation",
+          "email": "team@opakeco.org"
+      },
+      {
+          "name": "Jackie Xu",
+          "email": "jackie@opakeco.org"
+      },
+      {
+          "name": "René Ammerlaan",
+          "email": "rene@opakeco.org"
+      }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opakeco/contracts/issues"
+  },
+  "homepage": "https://github.com/opakeco/contracts#readme"
+}
