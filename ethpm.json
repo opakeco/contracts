@@ -1,0 +1,18 @@
+{
+    "package_name": "opakeco",
+    "version": "0.0.1",
+    "description": "Opakeco Foundation contracts",
+    "authors": [
+        "Jackie Xu <jackie@opakeco.org>",
+        "René Ammerlaan <rene@opakeco.org"
+    ],
+    "keywords": [
+        "solidity",
+        "ethereum",
+        "smart",
+        "contract",
+        "opakeco"
+    ],
+    "license": "MIT"
+}
+
