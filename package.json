@@ -11,7 +11,8 @@
     "zeppelin-solidity": "^1.2.0"
   },
   "devDependencies": {
-    "ethereumjs-testrpc": "^4.0.1"
+    "ethereumjs-testrpc": "^4.0.1",
+    "solium": "^0.5.4"
   },
   "scripts": {
     "test": "truffle test"
