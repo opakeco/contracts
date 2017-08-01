@@ -7,9 +7,12 @@
     "test": "test"
   },
   "dependencies": {
+    "truffle": "^3.4.7",
     "zeppelin-solidity": "^1.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "ethereumjs-testrpc": "^4.0.1"
+  },
   "scripts": {
     "test": "truffle test"
   },
@@ -27,18 +30,18 @@
     "contract"
   ],
   "contributors": [
-      {
-          "name": "Opakeco Foundation",
-          "email": "team@opakeco.org"
-      },
-      {
-          "name": "Jackie Xu",
-          "email": "jackie@opakeco.org"
-      },
-      {
-          "name": "René Ammerlaan",
-          "email": "rene@opakeco.org"
-      }
+    {
+      "name": "Opakeco Foundation",
+      "email": "team@opakeco.org"
+    },
+    {
+      "name": "Jackie Xu",
+      "email": "jackie@opakeco.org"
+    },
+    {
+      "name": "René Ammerlaan",
+      "email": "rene@opakeco.org"
+    }
   ],
   "license": "MIT",
   "bugs": {
