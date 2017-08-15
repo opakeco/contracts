@@ -10,6 +10,11 @@ import 'zeppelin-solidity/contracts/math/SafeMath.sol';
 contract KarmoCrowdsale is CappedCrowdsale {
     using SafeMath for uint256;
 
+    uint HARD_LIMIT = 100000;
+
+    function KarmoCrowdsale() {
+        super.CappedCrowdsale(HARD_LIMIT);
+    }
 
     /**
      * Returns true if contributors can still contribute to the crowdsale.
